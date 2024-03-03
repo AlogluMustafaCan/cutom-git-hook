@@ -1,0 +1,5 @@
+- id: no_commit_to_master
+  name: no commit to master
+  entry: no_commit_to_master.sh
+  language: script
+  always_run: true

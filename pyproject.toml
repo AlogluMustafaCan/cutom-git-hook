@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "custom-git-hook"
+description = "Git hook to help you write good commit messages"
+readme = "README.md"
+dynamic = ["version"]
+[project.scripts]
+no_commit_to_master = "no_commit_to_master.sh"
