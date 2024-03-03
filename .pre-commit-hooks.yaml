@@ -1,5 +1,6 @@
 - id: no_commit_to_master
   name: no commit to master
+  description: Define the master branch as a restricted branch
   entry: no_commit_to_master.sh
   language: script
   always_run: true
